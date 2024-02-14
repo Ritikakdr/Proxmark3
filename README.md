@@ -1,4 +1,5 @@
 # Proxmark3
+## Cloning
 ### Identify the card
 Plug in the proxmark. Open a terminal  and start the Proxmark3 ,In the terminal type in 
 >auto
