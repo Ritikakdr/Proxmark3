@@ -34,7 +34,9 @@ An attempt to guess or crack cryptographic keys through an exhaustive search pro
 
 for Low frequency:
 > lf search
+
 > lf select [reader]
+
 > lf bruteforce
 
 
