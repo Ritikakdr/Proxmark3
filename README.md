@@ -42,5 +42,7 @@ for Low frequency:
 
 for High frequency:
 >hf search
+
 > hf select [reader]
+
 > hf mf bruteforce
