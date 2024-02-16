@@ -26,7 +26,19 @@ After reading the card, you'll want to save the data to a file for later use. Yo
 
 Use the
 > hf mf eload
+## BruteForce
+An attempt to guess or crack cryptographic keys through an exhaustive search process.
 
- command to write the captured data onto a blank RFID card. You'll need to provide the UID and other necessary parameters.
- 
- 
+- Select a Low frequency or an high frequency card 
+
+
+for Low frequency:
+> lf search
+> lf select [reader]
+> lf bruteforce
+
+
+for High frequency:
+>hf search
+> hf select [reader]
+> hf mf bruteforce
