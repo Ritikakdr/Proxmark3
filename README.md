@@ -46,3 +46,18 @@ for High frequency:
 > hf select [reader]
 
 > hf mf bruteforce
+
+# Attacks
+
+So before getting started , Let's know a bit about the  communication between RFID card, it's reader.
+here's how it happens:
+- **Intialization**:
+The reader initiates the communication by sending out an electromagnetic signal or RF field.
+- **Activation**: 
+When an RFID card enters this RF field ,the card becomes activated , enabling it to respond to communication requests from the reader.
+- **Anti-Collision**:
+It's used to prevent signal collisions and ensure proper communication with each card.
+
+- **Request-Response Protocol**:
+The reader sends a request command to the RFID card, typically asking for specific data or identification.
+RFID card processes the request and responds with the requested data, such as its unique identifier (UID), authentication information.
