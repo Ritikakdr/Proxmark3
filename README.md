@@ -66,4 +66,6 @@ RFID card processes the request and responds with the requested data, such as it
 Get the uid of the card
 
 ![Screenshot from 2024-02-20 17-49-24](https://github.com/Ritikakdr/Proxmark3/assets/116477443/53e3214b-b6de-4324-a3ef-89d4b16b1af6)
+![Screenshot from 2024-02-20 18-39-05](https://github.com/Ritikakdr/Proxmark3/assets/116477443/4f582fc6-64b9-4695-b42b-57fb35ec2650)
 
+![Screenshot from 2024-02-20 18-17-36](https://github.com/Ritikakdr/Proxmark3/assets/116477443/9559531e-a78e-4142-9dc0-8fffc98cfada)
