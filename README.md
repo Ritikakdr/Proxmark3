@@ -63,5 +63,7 @@ The reader sends a request command to the RFID card, typically asking for specif
 RFID card processes the request and responds with the requested data, such as its unique identifier (UID), authentication information.
 
 ## Nested Attack
+Get the uid of the card
+
 ![Screenshot from 2024-02-20 17-49-24](https://github.com/Ritikakdr/Proxmark3/assets/116477443/53e3214b-b6de-4324-a3ef-89d4b16b1af6)
 
