@@ -69,8 +69,48 @@ Get the uid of the card
 
 ![Screenshot from 2024-02-21 18-05-16](https://github.com/Ritikakdr/Proxmark3/assets/116477443/6833065a-a1e9-403b-b846-c58100e5fb9b)
 
-now that we have the UID , 
+
+-now that we have the UID , 
 Lets check for some valid keys 
 ![Screenshot from 2024-02-21 18-05-34](https://github.com/Ritikakdr/Proxmark3/assets/116477443/ffcbd884-836d-445a-b4d2-0a42c211ee94)
-The following image illustrates this attack being executed with Proxmark3 on a victim card:
+
+
+
+-The following image illustrates this attack being executed with Proxmark3 on a victim card:
 ![Screenshot from 2024-02-21 18-08-00](https://github.com/Ritikakdr/Proxmark3/assets/116477443/dd236850-6238-44ba-97f4-610e5d8a538c)
+
+## Darkside Attacks
+The Darkside attack exploits a weakness in the authentication process of RFID cards, specifically the NACK response code. By brute-forcing the NACK code, attackers can decrypt part of the keystream used, potentially compromising the security of the card system.
+
+Here's a breakdown of the steps involved in the attack:
+
+1.  **Initiation**: The attacker sends multiple authentication attempts to the target card with different keys, trying to authenticate using each key. These authentication attempts are typically automated and can be performed rapidly.
+    
+2.  **Detection of NACK response**: When a wrong key is used, the card responds with a NACK code. This code is typically encrypted with a keystream.
+    
+3.  **Brute force attack**: The attacker performs a brute force attack to quickly discover the NACK code before it's encrypted. Since the NACK code is small, it's feasible to try all possible combinations in a reasonable amount of time.
+    
+4.  **Decryption of NACK code**: Once the NACK code is obtained in plaintext, it can be used to perform an XOR operation with the encrypted NACK code received from the card
+
+- If you're not able to find *darkside*. You may need to update your firmware
+
+
+
+
+
+
+
+
+
+
+
+
+
+## Hardnested Attacks
+
+
+The Hardnested attack, a sophisticated method for cracking MIFARE Classic cards' encryption. It involves collecting a large number of encrypted nonces generated during authentication attempts, analyzing them to reduce the potential key space, and then conducting a brute-force attack to obtain the original encryption key.
+
+
+
+![Screenshot from 2024-02-21 18-49-08](https://github.com/Ritikakdr/Proxmark3/assets/116477443/32a7eb04-5a05-4d7f-8ad4-23c15dc88f2e)
