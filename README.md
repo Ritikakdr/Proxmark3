@@ -80,7 +80,7 @@ Lets check for some valid keys
 
 
 -The following image illustrates this attack being executed with Proxmark3 on a victim card:
--      hf mf nested 1 0
+-      hf mf nested  <card memory> <block number> <key A/B> <key (12 hex symbols)>
 ![Screenshot from 2024-02-21 18-08-00](https://github.com/Ritikakdr/Proxmark3/assets/116477443/dd236850-6238-44ba-97f4-610e5d8a538c)
 
 ## Darkside Attacks
@@ -114,6 +114,6 @@ In the Hardnested attack:
    -  A brute-force attack is then performed to obtain the original encryption key.
 
 As you can see we have found the original Key of the card
-
+-        hf mf hardnested r 
 
 ![Screenshot from 2024-02-21 18-49-08](https://github.com/Ritikakdr/Proxmark3/assets/116477443/32a7eb04-5a05-4d7f-8ad4-23c15dc88f2e)
