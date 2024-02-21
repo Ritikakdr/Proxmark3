@@ -112,5 +112,12 @@ Here's a breakdown of the steps involved in the attack:
 The Hardnested attack, a sophisticated method for cracking MIFARE Classic cards' encryption. It involves collecting a large number of encrypted nonces generated during authentication attempts, analyzing them to reduce the potential key space, and then conducting a brute-force attack to obtain the original encryption key.
 
 
+Here's a breif explanation of how the attack happens
+In the Hardnested attack:
+
+    - The attacker collects 2000 to 4000 nonces generated during authentication.
+   - Bit-by-bit analysis is conducted on the nonces to reduce the key space.
+   -  A brute-force attack is then performed to obtain the original encryption key.
+
 
 ![Screenshot from 2024-02-21 18-49-08](https://github.com/Ritikakdr/Proxmark3/assets/116477443/32a7eb04-5a05-4d7f-8ad4-23c15dc88f2e)
