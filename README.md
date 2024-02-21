@@ -12,6 +12,7 @@ Or you can also use
   -> hf search
 - low frequecy card
 ->   lf search
+  -      lf search
 ---
 Once you've identified the correct reader, use the 
 >hf 14a reader
