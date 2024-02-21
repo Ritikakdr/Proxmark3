@@ -63,7 +63,14 @@ The reader sends a request command to the RFID card, typically asking for specif
 RFID card processes the request and responds with the requested data, such as its unique identifier (UID), authentication information.
 
 ## Nested Attack
+
+
 Get the uid of the card
+
+![Screenshot from 2024-02-21 18-05-16](https://github.com/Ritikakdr/Proxmark3/assets/116477443/6833065a-a1e9-403b-b846-c58100e5fb9b)
+
 now that we have the UID , 
 Lets check for some valid keys 
-![Uploading Screenshot from 2024-02-21 18-05-34.png…]()
+![Screenshot from 2024-02-21 18-05-34](https://github.com/Ritikakdr/Proxmark3/assets/116477443/ffcbd884-836d-445a-b4d2-0a42c211ee94)
+The following image illustrates this attack being executed with Proxmark3 on a victim card:
+![Screenshot from 2024-02-21 18-08-00](https://github.com/Ritikakdr/Proxmark3/assets/116477443/dd236850-6238-44ba-97f4-610e5d8a538c)
