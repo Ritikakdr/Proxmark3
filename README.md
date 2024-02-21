@@ -96,16 +96,6 @@ Here's a breakdown of the steps involved in the attack:
 
 
 
-
-
-
-
-
-
-
-
-
-
 ## Hardnested Attacks
 
 
@@ -115,7 +105,7 @@ The Hardnested attack, a sophisticated method for cracking MIFARE Classic cards'
 Here's a breif explanation of how the attack happens
 In the Hardnested attack:
 
-    - The attacker collects 2000 to 4000 nonces generated during authentication.
+   - The attacker collects 2000 to 4000 nonces generated during authentication.
    - Bit-by-bit analysis is conducted on the nonces to reduce the key space.
    -  A brute-force attack is then performed to obtain the original encryption key.
 
