@@ -9,7 +9,7 @@ This command will help you identify the type of card you are using
 
 Or you can also use 
 -  High frequency card
-  - hf search
+  -> hf search
 - low frequecy card
 ->   lf search
 ---
